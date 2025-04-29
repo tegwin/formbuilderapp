@@ -1,0 +1,264 @@
+/**
+ * Frontend CSS for Dynamic Form Builder
+ */
+
+/* Form Container */
+.dynamic-form-container {
+    max-width: 100%;
+    margin: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Form Title and Description */
+.dfb-form-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.dfb-form-description {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Form */
+.dfb-form {
+    padding: 0;
+    margin: 0;
+}
+
+/* Field Container */
+.dfb-field-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Field Labels */
+.dfb-field-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Required Field Indicator */
+.dfb-required {
+    color: #e53935;
+    margin-left: 3px;
+}
+
+/* Text Inputs */
+.dfb-form input[type="text"],
+.dfb-form input[type="email"],
+.dfb-form input[type="url"],
+.dfb-form input[type="password"],
+.dfb-form input[type="tel"],
+.dfb-form input[type="number"],
+.dfb-form input[type="date"],
+.dfb-form input[type="time"],
+.dfb-form textarea,
+.dfb-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.dfb-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.dfb-form input[type="text"]:focus,
+.dfb-form input[type="email"]:focus,
+.dfb-form input[type="url"]:focus,
+.dfb-form input[type="password"]:focus,
+.dfb-form input[type="tel"]:focus,
+.dfb-form input[type="number"]:focus,
+.dfb-form input[type="date"]:focus,
+.dfb-form input[type="time"]:focus,
+.dfb-form textarea:focus,
+.dfb-form select:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+    outline: none;
+}
+
+/* Checkboxes and Radio Buttons */
+.dfb-radio-options,
+.dfb-checkbox-options {
+    margin-top: 5px;
+}
+
+.dfb-radio-option,
+.dfb-checkbox-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.dfb-radio-option input,
+.dfb-checkbox-option input {
+    margin-right: 8px;
+}
+
+.dfb-radio-option label,
+.dfb-checkbox-option label {
+    cursor: pointer;
+}
+
+/* File Upload */
+.dfb-form input[type="file"] {
+    padding: 8px 0;
+}
+
+.dfb-file-preview {
+    margin-top: 10px;
+}
+
+.dfb-file-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.dfb-file-name {
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.dfb-file-size {
+    color: #666;
+    font-size: 14px;
+}
+
+.dfb-file-remove {
+    margin-left: auto;
+    color: #e53935;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dfb-file-remove:hover {
+    text-decoration: underline;
+}
+
+.dfb-file-image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.dfb-submit-container {
+    margin-top: 25px;
+}
+
+.dfb-submit-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.dfb-submit-button:hover {
+    background-color: #1976d2;
+}
+
+.dfb-submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.4);
+}
+
+.dfb-submit-button.dfb-loading {
+    opacity: 0.7;
+    cursor: wait;
+}
+
+/* Success and Error Messages */
+.dfb-success-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    color: #2e7d32;
+    border-radius: 4px;
+}
+
+.dfb-error-messages {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffebee;
+    border-left: 4px solid #e53935;
+    color: #c62828;
+    border-radius: 4px;
+}
+
+.dfb-error-messages ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.dfb-error-messages li {
+    margin-bottom: 5px;
+}
+
+/* Field Error */
+.dfb-field-container.has-error input,
+.dfb-field-container.has-error textarea,
+.dfb-field-container.has-error select {
+    border-color: #e53935;
+}
+
+.dfb-field-error {
+    color: #e53935;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Character Counter */
+.dfb-char-counter {
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.dfb-char-counter.dfb-char-limit-reached {
+    color: #e53935;
+    font-weight: bold;
+}
+
+/* HTML Content Field */
+.dfb-html-content {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dfb-form-title {
+        font-size: 20px;
+    }
+    
+    .dfb-submit-button {
+        width: 100%;
+    }
+}

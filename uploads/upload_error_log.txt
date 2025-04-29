@@ -1,0 +1,58 @@
+2025-04-27 18:16:45 - POST Max Size: 8M
+2025-04-27 18:16:45 - Upload Max Filesize: 2M
+2025-04-27 18:16:45 - Max File Uploads: 20
+2025-04-27 18:16:45 - FILES array: Array
+(
+    [File_Upload] => Array
+        (
+            [name] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+            [full_path] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/php5SpAGe
+            [error] => 0
+            [size] => 82047
+        )
+
+)
+
+2025-04-27 18:16:45 - Processing file: File_Upload
+2025-04-27 18:16:45 - File details: Array
+(
+    [name] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+    [full_path] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+    [type] => application/pdf
+    [tmp_name] => /tmp/php5SpAGe
+    [error] => 0
+    [size] => 82047
+)
+
+2025-04-27 18:16:45 - File uploaded successfully: 680e748dc1fd3_db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+2025-04-27 18:29:42 - POST Max Size: 8M
+2025-04-27 18:29:42 - Upload Max Filesize: 2M
+2025-04-27 18:29:42 - Max File Uploads: 20
+2025-04-27 18:29:42 - FILES array: Array
+(
+    [File_Upload] => Array
+        (
+            [name] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+            [full_path] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/phphBK4Ma
+            [error] => 0
+            [size] => 82047
+        )
+
+)
+
+2025-04-27 18:29:42 - Processing file: File_Upload
+2025-04-27 18:29:42 - File details: Array
+(
+    [name] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+    [full_path] => db824893-6a72-4e9b-a4a0-892dc1649b94.pdf
+    [type] => application/pdf
+    [tmp_name] => /tmp/phphBK4Ma
+    [error] => 0
+    [size] => 82047
+)
+
+2025-04-27 18:29:42 - File uploaded successfully: 680e7796ba090_db824893-6a72-4e9b-a4a0-892dc1649b94.pdf

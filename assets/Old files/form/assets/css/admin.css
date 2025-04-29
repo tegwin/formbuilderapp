@@ -1,0 +1,440 @@
+/**
+ * Admin CSS for Dynamic Form Builder
+ */
+
+/* Form Builder Layout */
+.dfb-builder-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.dfb-builder-left {
+    flex: 2;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+.dfb-builder-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.dfb-panel {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+}
+
+.dfb-panel-header {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dfb-panel-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.dfb-panel-content {
+    padding: 15px;
+}
+
+/* Field List */
+.dfb-field-list {
+    min-height: 50px;
+}
+
+.dfb-field-item {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+}
+
+.dfb-field-drag-handle {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    border-right: 1px solid #ddd;
+    cursor: move;
+    color: #666;
+}
+
+.dfb-field-preview {
+    flex-grow: 1;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dfb-field-type-badge {
+    background: #e0e0e0;
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.dfb-field-label {
+    font-weight: 500;
+    flex-grow: 1;
+}
+
+.dfb-required-badge {
+    background: #e53935;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.dfb-field-actions {
+    display: flex;
+    align-items: center;
+}
+
+.dfb-field-actions a {
+    display: block;
+    padding: 0 10px;
+    color: #666;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.dfb-field-actions a:hover {
+    color: #2196f3;
+}
+
+.dfb-delete-field:hover {
+    color: #e53935 !important;
+}
+
+/* Field Type Selector */
+.dfb-field-type-selector {
+    display: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.dfb-field-type-selector h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.dfb-field-type-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.dfb-field-type-option {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.dfb-field-type-option:hover {
+    background: #f1f1f1;
+    border-color: #2196f3;
+    color: #2196f3;
+}
+
+.dfb-field-type-option i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Field Editor */
+.dfb-field-editor {
+    display: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.dfb-field-editor h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.dfb-field-option-row {
+    margin-bottom: 15px;
+}
+
+.dfb-field-option-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.dfb-field-option-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.dfb-field-option-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.dfb-field-option-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.dfb-field-option-help {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}
+
+.dfb-field-editor-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dfb-field-editor-buttons button {
+    margin-left: 10px;
+}
+
+/* Form Settings */
+.dfb-form-settings-panel {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.dfb-form-setting-row {
+    margin-bottom: 15px;
+}
+
+.dfb-form-setting-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.dfb-form-setting-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.dfb-form-setting-help {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 12px;
+}
+
+/* Notifications */
+#dfb-notification {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+}
+
+.dfb-notification-success,
+.dfb-notification-error {
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dfb-notification-success {
+    background-color: #4caf50;
+}
+
+.dfb-notification-error {
+    background-color: #e53935;
+}
+
+/* Forms List Table */
+.dfb-forms-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.dfb-forms-table th,
+.dfb-forms-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dfb-forms-table th {
+    font-weight: 600;
+    background: #f9f9f9;
+}
+
+.dfb-forms-table tr:hover {
+    background: #f5f5f5;
+}
+
+.dfb-form-actions {
+    display: flex;
+}
+
+.dfb-form-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Form Entries Table */
+.dfb-entries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.dfb-entries-table th,
+.dfb-entries-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dfb-entries-table th {
+    font-weight: 600;
+    background: #f9f9f9;
+}
+
+.dfb-entries-table tr:hover {
+    background: #f5f5f5;
+}
+
+.dfb-entry-data {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dfb-entry-expand {
+    cursor: pointer;
+    color: #2196f3;
+}
+
+.dfb-entry-details {
+    display: none;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.dfb-entry-row {
+    display: flex;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.dfb-entry-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.dfb-entry-label {
+    font-weight: 500;
+    width: 150px;
+    padding-right: 15px;
+}
+
+.dfb-entry-value {
+    flex-grow: 1;
+}
+
+/* Buttons */
+.dfb-button {
+    display: inline-block;
+    background: #2196f3;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+}
+
+.dfb-button:hover {
+    background: #1976d2;
+    color: white;
+}
+
+.dfb-button-secondary {
+    background: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.dfb-button-secondary:hover {
+    background: #e5e5e5;
+    color: #333;
+}
+
+.dfb-button-danger {
+    background: #e53935;
+}
+
+.dfb-button-danger:hover {
+    background: #c62828;
+}
+
+/* Responsive Design */
+@media (max-width: 782px) {
+    .dfb-builder-container {
+        flex-direction: column;
+    }
+    
+    .dfb-builder-left,
+    .dfb-builder-right {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .dfb-field-type-options {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}

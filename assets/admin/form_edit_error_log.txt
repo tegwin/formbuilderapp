@@ -1,0 +1,606 @@
+2025-04-25 21:26:10 - POST Data: Array
+(
+    [form_name] => Anotehr test 
+    [webhook_url] => https://halo.sondelaconsulting.com/api/automation/6bdab7c6-da51-4a14-bc71-41310b3edb34
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 21:26:10 - Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+2025-04-25 21:50:58 - POST Data: Array
+(
+    [form_name] => Anotehr test 
+    [webhook_url] => https://halo.sondelaconsulting.com/api/automation/6bdab7c6-da51-4a14-bc71-41310b3edb34
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 21:50:58 - Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+2025-04-25 21:54:56 - POST Data: Array
+(
+    [form_name] => Anotehr test 
+    [webhook_url] => https://halo.sondelaconsulting.com/api/automation/6bdab7c6-da51-4a14-bc71-41310b3edb34
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 21:55:06 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://halo.sondelaconsulting.com/api/automation/6bdab7c6-da51-4a14-bc71-41310b3edb34
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 21:58:29 - POST Data: Array
+(
+    [form_name] => Test new Webhoo
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [8] => Array
+                (
+                    [id] => 8
+                    [label] => Name
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 21:58:38 - POST Data: Array
+(
+    [form_name] => Test new Webhoo
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [8] => Array
+                (
+                    [id] => 8
+                    [label] => Name
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:15:13 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://halo.sondelaconsulting.com/api/automation/6bdab7c6-da51-4a14-bc71-41310b3edb34
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+    [new_fields] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:16:30 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 10
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:35:32 - POST Data: Array
+(
+    [form_name] => New User onboarding
+    [webhook_url] =>  https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 1
+                    [label] => FirstName
+                    [name] => FirstName
+                    [type] => text
+                    [options] => 
+                    [required] => on
+                )
+
+            [2] => Array
+                (
+                    [id] => 2
+                    [label] => Last Name
+                    [name] => LastName
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:36:31 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 10
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:36:42 - POST Data: Array
+(
+    [form_name] => New User onboarding
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 1
+                    [label] => FirstName
+                    [name] => FirstName
+                    [type] => text
+                    [options] => 
+                    [required] => on
+                )
+
+            [2] => Array
+                (
+                    [id] => 2
+                    [label] => Last Name
+                    [name] => LastName
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-25 22:48:37 - POST Data: Array
+(
+    [form_name] => Customer Onboarding
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [11] => Array
+                (
+                    [id] => 11
+                    [label] => Company Name
+                    [name] => CompanyName
+                    [type] => text
+                    [options] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 12
+                    [label] => Full Name
+                    [name] => FullName
+                    [type] => text
+                    [options] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 13
+                    [label] => What PC do you want
+                    [name] => PCNeeded
+                    [type] => select
+                    [options] => laptop,desktop
+                )
+
+            [14] => Array
+                (
+                    [id] => 14
+                    [label] => Start Date
+                    [name] => StartDate
+                    [type] => date
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 07:01:43 - POST Data: Array
+(
+    [form_name] => Test form
+    [webhook_url] => https://eocm77047ew98d7.m.pipedream.net
+    [is_public] => on
+    [fields] => Array
+        (
+            [4] => Array
+                (
+                    [id] => 4
+                    [label] => Full Name
+                    [name] => FullName
+                    [type] => text
+                    [options] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [label] => Email
+                    [name] => Email
+                    [type] => email
+                    [options] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 6
+                    [label] => Subject
+                    [name] => Subject
+                    [type] => text
+                    [options] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 7
+                    [label] => Description
+                    [name] => Description
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 07:07:28 - POST Data: Array
+(
+    [form_name] => Test form
+    [webhook_url] => https://hooks.zapier.com/hooks/catch/3477889/2p4kzza/
+    [is_public] => on
+    [fields] => Array
+        (
+            [4] => Array
+                (
+                    [id] => 4
+                    [label] => Full Name
+                    [name] => FullName
+                    [type] => text
+                    [options] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [label] => Email
+                    [name] => Email
+                    [type] => email
+                    [options] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 6
+                    [label] => Subject
+                    [name] => Subject
+                    [type] => text
+                    [options] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 7
+                    [label] => Description
+                    [name] => Description
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 07:38:46 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 10
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 07:39:20 - POST Data: Array
+(
+    [form_name] => Test form
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [4] => Array
+                (
+                    [id] => 4
+                    [label] => Full Name
+                    [name] => FullName
+                    [type] => text
+                    [options] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [label] => Email
+                    [name] => Email
+                    [type] => email
+                    [options] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 6
+                    [label] => Subject
+                    [name] => Subject
+                    [type] => text
+                    [options] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 7
+                    [label] => Description
+                    [name] => Description
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 07:40:58 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 10
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 09:59:00 - POST Data: Array
+(
+    [form_name] => Another Test 
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [9] => Array
+                (
+                    [id] => 9
+                    [label] => Name 
+                    [name] => Name
+                    [type] => text
+                    [options] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 10
+                    [label] => Upload
+                    [name] => File Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
+2025-04-26 11:55:51 - POST Data: Array
+(
+    [form_name] => Test form
+    [webhook_url] => https://webhook.site/sondela
+    [is_public] => on
+    [fields] => Array
+        (
+            [4] => Array
+                (
+                    [id] => 4
+                    [label] => Full Name
+                    [name] => FullName
+                    [type] => text
+                    [options] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [label] => Email
+                    [name] => Email
+                    [type] => email
+                    [options] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 6
+                    [label] => Subject
+                    [name] => Subject
+                    [type] => text
+                    [options] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 7
+                    [label] => Description
+                    [name] => Description
+                    [type] => text
+                    [options] => 
+                )
+
+        )
+
+    [new_fields] => Array
+        (
+            [0] => Array
+                (
+                    [label] => Upload
+                    [name] => Upload
+                    [type] => upload
+                    [options] => 
+                )
+
+        )
+
+)
+
